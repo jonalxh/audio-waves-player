@@ -1,21 +1,29 @@
 {
-  "name": "calendly-vue",
-  "description": "A simple Vue.js component to embed calendly in your web app",
-  "version": "0.1.15",
+  "name": "audio-waves-player",
+  "description": "A simple Vue.js component to show and audio player with waves and better styles in your web app",
+  "version": "0.1",
   "private": false,
   "author": {
     "name": "Jonathan Arias",
     "url": "https://github.com/jonalxh"
   },
-  "repository": "https://github.com/jonalxh/calendly-vue.git",
+  "repository": "https://github.com/jonalxh/audio-waves-player.git",
   "keywords": [
     "vue",
-    "calendly",
+    "waves",
     "web component",
-    "wc"
+    "wc",
+    "audio",
+    "player",
+    "waveform",
+    "audioform",
+    "visualization",
+    "whatsapp",
+    "voice",
+    "note"
   ],
   "license": "MIT",
-  "main": "dist/calendly-vue.common.js",
+  "main": "dist/audio-waves-player.common.js",
   "files": [
     "dist"
   ],
@@ -23,12 +31,13 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-library": "vue-cli-service build --target lib --name calendly-vue ./src/install.js",
+    "build-library": "vue-cli-service build --target lib --name audio-waves-player ./src/install.js",
     "publish-npm": "git tag && git push --follow-tags && npm publish"
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "vue": "^2.6.14",
+    "wavesurfer.js": "^6.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
